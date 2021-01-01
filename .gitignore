@@ -1,4 +1,18 @@
+# Build Results
+UnlimitedPlayers/**/Release/
+UnlimitedPlayers/**/Debug/
+!UnlimitedPlayers/obj/Release/UnlimitedPlayers.dll
+
+# Visual Studio cache/options dirs
 .vs
 .vscode
-**/obj/Debug/
-**/bin/Debug/
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
+
+# Ignore packages folder since we have packages.config
+packages/
+
